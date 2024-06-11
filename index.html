@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banking App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Banking App Management System</h1>
+  </header>
+  <main>
+    <section id="balance">
+      <h2>Balance: <span id="balanceAmount">$0.00</span></h2>
+    </section>
+    <section id="transactions">
+      <h2>Transactions History</h2>
+      <ul id="transactionList">
+        <!-- Transaction list will be populated dynamically -->
+      </ul>
+    </section>
+    <section id="actions">
+      <h2>Actions</h2>
+      <button id="depositBtn">Deposit</button>
+      <button id="withdrawBtn">Withdraw</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

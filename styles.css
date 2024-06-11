@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(/banking_app/3398219.jpg);
+    /* this is made for the background image to be add the backgroud for the background of the banking app */
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  #transactionList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
